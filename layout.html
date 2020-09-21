@@ -1,0 +1,89 @@
+<html>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1"> </meta>
+<link type="stylesheet" src="styling.css">
+</head>
+<body>
+
+<h2>Should you take a shower or bath?</h2>
+<p>Input your predicted shower duration and the size of your bathtub, and we'll let you know which will use less water.</p>
+
+<div class="flex-container-imgs">
+  <div class="tenor-gif-embed" data-postid="13363982" data-share-method="host" data-width="21%" data-aspect-ratio="1.0">
+    <a href="https://tenor.com/view/shower-dogs-dog-cute-aww-gif-13363982">Shower Dogs GIF</a> from 	<a href="https://tenor.com/search/shower-gifs">Shower GIFs</a>
+  </div>
+  <script type="text/javascript" async src="https://tenor.com/embed.js">
+  </script>
+  <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcR5tyQG7_quEtX4qhtb7LYeXfgdN70yMuKlXA&usqp=CAU" alt="vs" width="170" height="170">
+  <div class="tenor-gif-embed" data-postid="18147516" data-share-method="host" data-width="25%" data-aspect-ratio="1.1857142857142857">
+  	<a href="https://tenor.com/view/dogobath-catbath-relaxing-gif-18147516">Dogobath Catbath GIF</a> from 
+  	<a href="https://tenor.com/search/dogobath-gifs">Dogobath GIFs</a>
+  </div>
+  	<script type="text/javascript" async src="https://tenor.com/embed.js">
+    </script>
+  </div>
+</div>
+<div class="flex-container">
+  <div class="showerDropdown">
+    <button onclick="showerFunction()" class="dropbtn">Length of Shower</button>
+    <div id="showerDropdown" class="dropdown-content">
+      <input type="text" placeholder="Length in minutes" class="myInput" onkeyup="filterFunction()">
+      <a href="#1">1</a>
+      <a href="#2">2</a>
+      <a href="#3">3</a>
+      <a href="#4">4</a>
+      <a href="#5">5</a>
+      <a href="#6">6</a>
+      <a href="#7">7</a>
+      <a href="#8">8</a>
+      <a href="#9">9</a>
+      <a href="#10">10</a>
+      <a href="#11">11</a>
+      <a href="#12">12</a>
+      <a href="#13">13</a>
+      <a href="#14">14</a>
+      <a href="#15">15</a>
+      <a href="#16">16</a>
+      <a href="#17">17</a>
+      <a href="#18">18</a>
+      <a href="#19">19</a>
+      <a href="#20">20</a>
+    </div>
+  </div>
+  
+  <div class="bathDropdown">
+    <button onclick="bathFunction()" class="dropbtn">Volume of Bath</button>
+    <div id="bathDropdown" class="dropdown-content">
+      <input type="text" placeholder="Volume in gallons" class="myInput" onkeyup="filterFunction()">
+      <a href="#small">35 (small)</a>
+      <a href="#medium">40 (medium)</a>
+      <a href="#large">50 (large)</a>
+    </div>
+  </div>
+</div>
+
+<div class="flex-container-solo">
+	<button onclick="calcFunction()" class="gobtn">Calculate Water Usage</button>
+</div>
+
+
+<script>
+/* When the user clicks on the button,
+toggle between hiding and showing the dropdown content */
+function showerFunction() {
+  document.getElementById("showerDropdown").classList.toggle("show");
+}
+function bathFunction() {
+  document.getElementById("bathDropdown").classList.toggle("show");
+}
+function calcFunction() {
+}
+</script>
+
+</body>
+</html>
+
+
+
+
+
