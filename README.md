@@ -9,3 +9,11 @@ I had never done anything even remotely front-end, which meant I had never touch
 
 ### What didn’t work
 Like I said, I really didn't understand what parts of what I wanted to build should be in HTML vs. CSS vs. JavaScript, so I started with everything in one file. Well, really, I started by trying to adapt the tic-tac-toe tutorial code to do what I wanted, but I realized I'd have more direction if I laid out the skeleton of my desired page in HTML first. My unfamiliarity also made it hard to even research questions at first. I first built the inputs to be clunky dropdown menus with buttons because I just didn't know other options existed, so going back in and researching what else was out there would have been a good idea earlier in the process. Of course, React didn't quite work out, but that was a conscious choice to move away from it because it just didn't make sense for the situation, though I enjoyed learning about it first.
+
+#### Links
+* [React tutorial](https://reactjs.org/tutorial/tutorial.html#overview)
+* [Flex Box Froggy](https://flexboxfroggy.com)
+* [Used this just to learn how to run a React app](https://www.codementor.io/@rajjeet/step-by-step-create-a-react-project-from-scratch-11s9skvnxv)
+* Nearly all basic HTML and CSS styling from [w3schools.com](https://www.w3schools.com/)
+* [Codecademy guide](https://www.codecademy.com/articles/f1-u2-create-first-prj) helped me with structuring the repo and splitting the files
+* All smaller citations for small adjustments are cited in my code.
