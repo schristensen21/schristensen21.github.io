@@ -9,9 +9,10 @@ h1 {
 }
 h2 {
   color: #4781af;
-  font-family: "Alfa Slab One";}
+  font-family: "Alfa Slab One";
+}
 
-
+/*Learned flex boxes from https://flexboxfroggy.com*/
 .flex-container {
   display: flex;
   justify-content: space-evenly;
@@ -33,6 +34,8 @@ h2 {
   background-color: white;
 }
 
+/* Used https://www.w3schools.com/css/css3_buttons.asp
+basic button styling as jumping off point */
 .gobtn {
   background-color: #4781af;
   color: white;
@@ -53,9 +56,11 @@ h2 {
   padding: 16px;
   font-size: 18px;
   border: none;
-  cursor: initial; /*Doesn't look clickable*/
+  cursor: initial;
+  /* Learned about cursors from https://www.w3schools.com/cssref/pr_class_cursor.asp */
   font-family: "Allerta";
   visibility: hidden;
-  outline: 0; /*Doesn't look clickable*/
+  /* Learned about visibility from https://www.w3schools.com/cssref/pr_class_visibility.asp */
+  outline: 0;
 }
 

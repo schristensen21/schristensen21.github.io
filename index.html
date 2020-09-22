@@ -3,6 +3,7 @@
 <head>
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <link href="./resources/css/index.css" type="text/css" rel="stylesheet">
+  <! -- Learned about Google fonts from https://www.w3schools.com/howto/howto_google_fonts.asp -- >
   <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Alfa Slab One">
   <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Allerta">
 </head>
@@ -12,19 +13,19 @@
   <h4>Input your predicted shower duration and the size of your bathtub, and we'll let you know which will use less water.</h4>
 
   <div class="flex-container-imgs">
+    <! -- GIF code supplied by tenor -->
     <div class="tenor-gif-embed" data-postid="13363982" data-share-method="host" data-width="21%" data-aspect-ratio="1.0">
-      <a href="https://tenor.com/view/shower-dogs-dog-cute-aww-gif-13363982">Shower Dogs GIF</a> from 	<a href="https://tenor.com/search/shower-gifs">Shower GIFs</a>
+      <a href="https://tenor.com/view/shower-dogs-dog-cute-aww-gif-13363982">Shower Dogs GIF</a> from
+      <a href="https://tenor.com/search/shower-gifs">Shower GIFs</a>
     </div>
-    <script type="text/javascript" async src="https://tenor.com/embed.js">
-    </script>
+    <script type="text/javascript" async src="https://tenor.com/embed.js"></script>
     <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcR5tyQG7_quEtX4qhtb7LYeXfgdN70yMuKlXA&usqp=CAU" alt="vs" width="170" height="170">
+    <! -- GIF code supplied by tenor -->
     <div class="tenor-gif-embed" data-postid="18147516" data-share-method="host" data-width="25%" data-aspect-ratio="1.1857142857142857">
       <a href="https://tenor.com/view/dogobath-catbath-relaxing-gif-18147516">Dogobath Catbath GIF</a> from
       <a href="https://tenor.com/search/dogobath-gifs">Dogobath GIFs</a>
     </div>
-      <script type="text/javascript" async src="https://tenor.com/embed.js">
-      </script>
-    </div>
+    <script type="text/javascript" async src="https://tenor.com/embed.js"></script>
   </div>
 
   <p> </p>
@@ -33,6 +34,9 @@
     <label>Bath volume (in gallons):</label>
   </div>
   <div class="flex-container">
+      <! -- learned in line forms from https://www.w3schools.com/howto/howto_css_inline_form.asp -->
+      <! -- selector structure from https://www.w3schools.com/tags/tag_select.asp -->
+      <! -- learned input types from https://www.w3schools.com/html/html_form_input_types.asp -->
       <input value=10 type="number" id="showerlen" name="showerLength">
       <select name="tubsize" id="bathsize" placeholder=10 class="myInput">
         <option value=30>30 (mostly full standard tub)</option>
@@ -43,6 +47,7 @@
 
   <p> </p>
   <div class="flex-container-solo">
+    <! -- Learned buttons from https://www.w3schools.com/css/css3_buttons.asp -- >
     <button id="calcbutton" onclick="calcFunction()" class="gobtn">Calculate Water Usage</button>
   </div>
 

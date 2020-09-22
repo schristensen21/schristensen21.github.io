@@ -4,6 +4,7 @@ function calcFunction() {
     document.getElementById("result").style.visibility = "visible";
 
     // Calculate water used
+    // Learned how to get Element by ID from
     let shower = document.getElementById("showerlen").value;
     const showerrate = 5;
     let bath = document.getElementById("bathsize").value;
@@ -12,6 +13,8 @@ function calcFunction() {
     // Show message based on which uses less water
     if (shower*showerrate <= bath) {
         let answer = "Take a shower! You will save ".concat(diff.toString(), " gallons of water.");
+        // Learned about .innerHTML from https://stackoverflow.com/questions/10671174/changing-button-text-onclick/49005684
+        // I think it should be safe enough since only numbers are allowed
         document.getElementById("result").innerHTML = answer;
         console.log(answer);
     }
