@@ -1,18 +1,15 @@
-/* When the user clicks on the button,
-toggle between hiding and showing the dropdown content */
-function showerFunction() {
-    document.getElementById("showerDropdown").classList.toggle("show");
-}
-function bathFunction() {
-    document.getElementById("bathDropdown").classList.toggle("show");
-}
-
+/* Procedure for when calculate button is clicked */
 function calcFunction() {
+    // Result banner becomes visible
     document.getElementById("result").style.visibility = "visible";
+
+    // Calculate water used
     let shower = document.getElementById("showerlen").value;
     const showerrate = 5;
     let bath = document.getElementById("bathsize").value;
     let diff = Math.abs(bath - shower*showerrate);
+
+    // Show message based on which uses less water
     if (shower*showerrate <= bath) {
         let answer = "Take a shower! You will save ".concat(diff.toString(), " gallons of water.");
         document.getElementById("result").innerHTML = answer;

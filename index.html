@@ -33,13 +33,17 @@
     <label>Bath volume (in gallons):</label>
   </div>
   <div class="flex-container">
-      <input type="number" id="showerlen" placeholder="_ minutes" name="showerLength">
-      <input type="number" id="bathsize" placeholder="_ gallons" name="bathVolume">
+      <input value=10 type="number" id="showerlen" name="showerLength">
+      <select name="tubsize" id="bathsize" placeholder=10 class="myInput">
+        <option value=30>30 (mostly full standard tub)</option>
+        <option value=40>40 (very full standard tub)</option>
+        <option value=50>50 (larger than usual tub)</option>
+      </select>
   </div>
 
   <p> </p>
   <div class="flex-container-solo">
-    <button onclick="calcFunction()" class="gobtn">Calculate Water Usage</button>
+    <button id="calcbutton" onclick="calcFunction()" class="gobtn">Calculate Water Usage</button>
   </div>
 
   <p> </p>
