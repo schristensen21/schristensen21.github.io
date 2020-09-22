@@ -1,0 +1,112 @@
+html {
+  text-align: center;
+  color: #315676;
+  font-family: "Allerta";
+  }
+h1 {
+  color: #4781af;
+  font-family: "Alfa Slab One";
+}
+h2 {
+  color: #4781af;
+  font-family: "Alfa Slab One";}
+
+
+.flex-container {
+  display: flex;
+  justify-content: space-evenly;
+  background-color: white;
+  align-items: center;
+}
+
+.flex-container-imgs {
+  display: flex;
+  justify-content: center;
+  background-color: white;
+  align-items: center;
+}
+
+.flex-container-solo {
+  display: flex;
+  justify-content: center;
+  align-items: flex-end;
+  background-color: white;
+}
+
+.flex-container > div {
+  background-color: #ffffff;
+  color: white;
+  margin: 10px;
+  text-align: center;
+  line-height: 20px;
+  font-size: 14px;
+}
+
+.form-inline {
+  display: flex;
+  flex-flow: row wrap;
+  align-items: center;
+}
+
+.form-inline label {
+  margin: 5px 10px 5px 0;
+}
+
+.form-inline input {
+  vertical-align: middle;
+  margin: 5px 10px 5px 0;
+  padding: 10px;
+  background-color: #fff;
+  border: 1px solid #ddd;
+}
+
+@media (max-width: 800px) {
+  .form-inline input {
+    margin: 10px 0;
+  }
+
+  .form-inline {
+    flex-direction: row;
+    align-items: stretch;
+  }
+}
+
+.gobtn {
+  background-color: #4781af;
+  color: white;
+  padding: 16px;
+  font-size: 18px;
+  border: none;
+  cursor: pointer;
+  font-family: "Allerta";
+}
+
+.gobtn:hover, .gobtn:focus {
+  background-color: #315676;
+}
+
+.banner {
+  background-color: #9bd1ff;
+  color: #315676;
+  padding: 16px;
+  font-size: 18px;
+  border: none;
+  cursor: pointer;
+  font-family: "Allerta";
+  visibility: hidden;
+}
+
+#myInput {
+  box-sizing: border-box;
+  background-position: 14px 12px;
+  background-repeat: no-repeat;
+  font-size: 14px;
+  padding: 14px 20px 12px 45px;
+  border: none;
+  border-bottom: 1px solid #ddd;
+}
+
+.myInput:focus {outline: 3px solid #ddd;}
+
+.show {display: block;}
+
