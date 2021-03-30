@@ -2,7 +2,7 @@ html {
   text-align: center;
   color: #315676;
   font-family: "Allerta";
-  }
+}
 h1 {
   color: #4781af;
   font-family: "Alfa Slab One";
@@ -16,6 +16,14 @@ h2 {
 .flex-container {
   display: flex;
   justify-content: space-evenly;
+  background-color: white;
+  align-items: center;
+}
+
+.flex-container-vertical {
+  flex-direction: column;
+  display: flex;
+  justify-content: center;
   background-color: white;
   align-items: center;
 }
@@ -50,7 +58,8 @@ basic button styling as jumping off point */
   background-color: #315676;
 }
 
-.banner { /*Really just an inactive button*/
+.banner {
+  /*Really just an inactive button*/
   background-color: #9bd1ff;
   color: #315676;
   padding: 16px;
