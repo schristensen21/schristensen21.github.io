@@ -4,7 +4,7 @@ html {
   font-family: "Allerta";
 }
 h1 {
-  color: #4781af;
+  color: #315676;
   font-family: "Alfa Slab One";
 }
 h2 {
@@ -72,4 +72,3 @@ basic button styling as jumping off point */
   /* Learned about visibility from https://www.w3schools.com/cssref/pr_class_visibility.asp */
   outline: 0;
 }
-
